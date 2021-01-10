@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <h1>Example app to visualize the decoding issue when using the prerender add on</h1>
+  <p>Use e.g. the following query parameters: "brand=H%26M&size=M"</p>
+</body>
+<script>
+    const textNode = document.createTextNode('window.location.search: ' + window.location.search)
+    document.body.appendChild(textNode)
+</script>
+
+</html>
